@@ -121,6 +121,7 @@ a.bottom {
     border: 0px;
     border-radius: 5px;
     background: rgba(231, 230, 230, 0.26);
+    color: rgb(49, 49, 49);
     cursor: pointer;    
 }
 
@@ -143,12 +144,16 @@ a.bottom {
 }
 
 #sign-in {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
     background: rgb(26, 105, 209);
     color: white;
     border-radius: 5px;
-    padding: 5px 20px 5px 20px;
+    padding: 8px 25px 8px 25px;
     border: 0px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #sign-in:hover {
